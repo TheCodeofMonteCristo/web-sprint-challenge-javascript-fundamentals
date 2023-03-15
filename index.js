@@ -16,10 +16,10 @@ function myFunction() {
 //myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+//Shane Healy's Answer: This has to do with the difference between local scope and global scope. The nestedFunction is accessing data within its own local code block, which is called function scope. 
+//
 
 
-//will write this later 
-//Rename; need multiple sources, including PluralSight, BloomTech, Udemy, and other projects. Will learn, rename, edit, compare, analyze later. This code was so elegant, and will compare against inferior models. 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
@@ -34,13 +34,17 @@ function myFunction() {
   /*Your Code Here*/
  // }
 
+
+
+
+
   function summation(number) {
     for (let i = 0; i < number; i++) {
     }
-    return counter(number);
+    return counting(number);
   }  
   
-  function counter(number) {
+  function counting(number) {
     return number = (number * (number + 1)) / 2
   }
 
@@ -83,13 +87,13 @@ const zooAnimals = [
 
 
   function animalNames(array){
-    const displayNames = [];
-    array.forEach(element => displayNames.push(`name: ${element.animal_name}, scientific: ${element.scientific_name}`));
-    return displayNames;
+    const zooSounds = [];
+    array.forEach(titan => zooSounds.push(`name: ${titan.animal_name}, scientific: ${titan.scientific_name}`));
+    return zooSounds;
   }
 
 
-
+  
 
 
 
@@ -111,8 +115,8 @@ const zooAnimals = [
   
  
   
- function lowerCaseNames(array){
-    return array.map(element => element.animal_name.toLowerCase())
+ function lowerCaseNames(packets){
+    return packets.map(component => component.animal_name.toLowerCase())
   }
 
 
@@ -138,8 +142,8 @@ const zooAnimals = [
 
 
 
-  function lowPopulationAnimals(array){
-    return array.filter(element => element.population < 5)
+  function lowPopulationAnimals(datum){
+    return datum.filter(sus => sus.population < 5)
   }
 
 
@@ -165,8 +169,8 @@ const zooAnimals = [
 
 
 
-  function USApop(array){
-    return array.reduce((acc, currentValue) => acc + currentValue.population, 0);
+  function USApop(insert){
+    return insert.reduce((monkey, hungryLeopard) => monkey + hungryLeopard.population, 0);
   }
 
 
@@ -189,8 +193,8 @@ const zooAnimals = [
 
 
 
-  function consume(a, b, cb){
-    return cb(a, b)
+  function consume(Asimov, Clarke, Heinlein){
+    return Heinlein(Asimov, Clarke)
   }
  
 
@@ -216,8 +220,8 @@ const zooAnimals = [
 //trick
 
 
-function add(num1, num2){
-  return num1 + num2
+function add(firstParam, latterParam){
+  return firstParam + latterParam
 }
 
 
@@ -235,8 +239,8 @@ function add(num1, num2){
    /*Your Code Here */
   //}
 
-  function multiply(num1, num2){
-    return num1 * num2
+  function multiply(Katniss, Everdeen){
+    return Katniss * Everdeen
    }
 
 
@@ -254,8 +258,8 @@ function add(num1, num2){
   //}
   
 
-  function greeting(firstName, lastName){
-    return `Hello ${firstName} ${lastName}, nice to meet you!`
+  function greeting(Bond, jamesBond){
+    return `Hello ${Bond} ${jamesBond}, nice to meet you!`
    }
 
 
@@ -291,10 +295,10 @@ function add(num1, num2){
 //}
 
 
-function CuboidMaker(object){
-  this.length = object.length,
-  this.width = object.width,
-  this.height = object.height
+function CuboidMaker(noahsArk){
+  this.length = noahsArk.length,
+  this.width = noahsArk.width,
+  this.height = noahsArk.height
 }
 
 
@@ -330,7 +334,7 @@ CuboidMaker.prototype.surfaceArea = function() {
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid. */
 
 
-  const cuboid = new CuboidMaker({length: 4, width: 5, height: 5});
+  let cuboid = new CuboidMaker({length: 4, width: 5, height: 5});
 
 
 
